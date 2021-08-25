@@ -1,4 +1,17 @@
 {
-  "name": "HBRN1",
-  "displayName": "HBRN1"
+    "expo": {
+        "sdkVersion": "42.0.0",
+        "name": "HBRN App",
+        "icon": "https://s3.amazonaws.com/exp-us-standard/rnplay/app-icon.png",
+        "version": "1.0.0",
+        "slug": "test1",
+        "ios": {
+            "bundleIdentifier": "com.hb.www"
+        },
+        "android": {
+            "package": "com.hb.www"
+        }
+    },
+    "name": "HBRN1",
+    "displayName": "HBRN1"
 }
