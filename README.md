@@ -24,5 +24,6 @@ How would you like to upload your credentials?
 Expo handles all credentials, you can still provide overrides 
 Expo帮你处理
 
-### 预览![Simulator Screen Shot - iPhone 12 - 2021-08-26 at 01 01 47](https://user-images.githubusercontent.com/54516653/130834417-30731687-70c9-4b98-bba0-bf763e92e3f7.png)
-![Simulator Screen Shot - iPhone 12 - 2021-08-26 at 01 02 00](https://user-images.githubusercontent.com/54516653/130834445-729a4a2a-770a-4b8e-b49b-4a06cac367b9.png)
+### 预览
+<img src="https://user-images.githubusercontent.com/54516653/130834417-30731687-70c9-4b98-bba0-bf763e92e3f7.png" alt="1" width="350px" height="700px" />
+<img src="https://user-images.githubusercontent.com/54516653/130834445-729a4a2a-770a-4b8e-b49b-4a06cac367b9.png" alt="2" width="350px" height="700px" />
