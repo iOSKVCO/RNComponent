@@ -9,6 +9,10 @@ xcrun simctl list devices
 # 选择要使用的设备（模拟器）
 yarn ios --simulator "iPhone 12"
 
+yarn ios --simulator "iPhone 14 Pro Max"
+
+yarn ios --udid xxxxxxx
+
 #  安装打包模块
 npm install -g exp
 
