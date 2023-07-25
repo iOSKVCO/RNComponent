@@ -13,6 +13,18 @@ yarn ios --simulator "iPhone 14 Pro Max"
 
 yarn ios --udid xxxxxxx
 
+# 使用Xcode打开  进行编译  command + B
+# 遇见的错误
+ node->getLayout().hadOverflow() |  
+ 改成  
+ node->getLayout().hadOverflow() ||
+
+ typedef uint8_t clockid_t;
+ 注释掉
+ //typedef uint8_t clockid_t;
+
+ 然后先用Xcode把工程跑一遍，之后再使用VSCode
+
 #  安装打包模块
 npm install -g exp
 
