@@ -229,7 +229,29 @@ const Stack = createStackNavigator();
 function Home() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="首页">
+      <Stack.Navigator initialRouteName="首页"
+                       screenOptions={{
+                           gestureEnabled: true,
+                           gestureDirection: 'horizontal',
+                           // gestureResponseDistance: {
+                           //     horizontal: 300.0,
+                           //     vertical: 300.0, // 设置垂直方向的响应距离，您可以根据需要调整值
+                           // },
+                           cardStyleInterpolator: ({ current, layouts }) => {
+                               return {
+                                   cardStyle: {
+                                       transform: [
+                                           {
+                                               translateX: current.progress.interpolate({
+                                                   inputRange: [0, 1],
+                                                   outputRange: [layouts.screen.width, 0],
+                                               }),
+                                           },
+                                       ],
+                                   },
+                               };
+                           },
+                       }}>
         <Stack.Screen name="首页" component={HomeScreen} options={HBnavigationstyle}/>
         <Stack.Screen name="Button示例" component={HB_Button} />
         <Stack.Screen name="ActivityIndicator示例" component={HB_ActivityIndicator} />
